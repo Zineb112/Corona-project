@@ -1,0 +1,7 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(0fr, 1fr);
+}
+
+body {background-color: coral;}
