@@ -15,8 +15,19 @@
     
 }
 
+@mixin hover {
+  &:hover{
+    background-color: $color-blue;
+      color:$color-gray;
+    
+  }
+    
+}
 
 button{
   @extend %btn;
+  @include hover ();
+  
+
   
   }
