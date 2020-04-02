@@ -1,0 +1,72 @@
+@import'variables';
+
+/*NavBar Start */
+.navbar {
+    background-image: url(../image/bar-17.png);
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+  li{
+    list-style-type: none;  
+    margin: 2vw 2vw;
+    /*font-size will be 3% of the height of the viewport */
+    font-size: 3vh;
+  }
+  a{
+    text-decoration: none;
+    padding: 1vw;
+
+  }
+
+  .Action2{
+    font-weight: bold;   
+    color: $color-blue;
+    margin-left: 1000%;
+   
+  }
+  .Action1{
+      color: $color-black;
+      margin-left: 900%;
+     
+  }
+
+  .logo{
+      margin-left: 40%;
+     
+  }
+  /*NavBar End */
+
+/*Yellow-Part Start */
+  .yellowpart{
+      text-align: center;
+      background-color: $color-yellow;
+      font-size: 2.5vh;
+      padding-bottom: 2%;
+      padding-top: 1%;
+  }
+ h2{
+     color: $color-blue;
+ }
+/*Yellow-Part End */
+
+
+/*HeroHeader Start */
+#HeroHeader {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2; 
+     }
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3; 
+    }

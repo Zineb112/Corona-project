@@ -1,0 +1,22 @@
+@import'variables';
+%btn{
+  background-image: url(../image/bar-18.png);
+  background-size: 50% 50%;
+    border: $color-blue;
+    padding: 15px 32px;
+    text-align: center;
+    color: $color-blue;
+    text-decoration: none;
+    border: 2px solid $color-blue;
+    border-radius: 12px;
+    font-size: 29px;
+    margin: 4px 2px;
+    width: 650px;
+    
+}
+
+
+button{
+  @extend %btn;
+  
+  }

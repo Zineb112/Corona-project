@@ -1,87 +1,19 @@
-*,
-*::after,
-*::before {
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
   padding: 0;
-  box-sizing: border-box; }
+  margin: 0;
+  text-decoration: none;
+  list-style: none; }
 
 body {
-  font-family: 'Cairo', sans-serif; }
-
-li {
-  list-style-type: none; }
-
-a {
-  text-decoration: none; }
-
-nav {
-  width: 100vw; }
-
-nav {
-  width: 100vw;
-  background-image: url(../image/bar-17.png); }
-
-ul {
-  margin: 0;
-  padding: 0;
-  /*this option by default dispose the elements in a row (flex-direction: row)*/
-  display: flex; }
-
-li {
-  list-style-type: none;
-  /*when I specify 2 values to margin, the first one is for the top and bottom side, the second for the left and right side*/
-  margin: 1vw 2vw; }
-
-.First {
-  margin-left: 70%;
-  color: #000000; }
-
-a {
-  text-decoration: none; }
-
-.Accueil {
-  color: #1078AD;
-  font-weight: bold !important; }
-
-img {
-  width: 2%;
-  height: 2%;
-  margin-left: 90%; }
-
-.info {
-  background-color: #F4CF1B;
-  text-align: center; }
-
-h1 {
-  padding-top: 2%;
-  padding-bottom: 1%;
-  color: #1078AD; }
-
-p {
-  padding-bottom: 2%; }
-
-.text2 {
-  margin-left: 5%;
-  text-align: center;
-  font-size: 20px; }
-
-.pensez {
-  display: flex;
-  padding-top: 3%;
-  margin-left: 5%; }
-
-.pen {
-  height: 100%;
-  width: 80%;
-  margin-left: 0%;
-  margin-top: -5%; }
-
-.text3 {
-  text-align: center;
-  font-size: 100%; }
+  font-family: 'cairo', sans-serif; }
 
 button {
-  background-image: url(../image/bar-17.png);
+  background-image: url(../image/bar-18.png);
+  background-size: 50% 50%;
   border: #1078AD;
   padding: 15px 32px;
   text-align: center;
@@ -91,18 +23,62 @@ button {
   border-radius: 12px;
   font-size: 29px;
   margin: 4px 2px;
-  width: 650px;
-  margin-top: 8%; }
+  width: 650px; }
 
-.icon {
-  width: 9%;
-  height: 10%;
-  margin-left: 45%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+/*NavBar Start */
+.navbar {
+  background-image: url(../image/bar-17.png); }
 
-.pensez_infor {
-  margin-top: 3%;
-  font-family: 'Cairo', sans-serif;
-  color: #7F7F7F;
-  margin-left: 5%; }
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+li {
+  list-style-type: none;
+  margin: 2vw 2vw;
+  /*font-size will be 3% of the height of the viewport */
+  font-size: 3vh; }
+
+a {
+  text-decoration: none;
+  padding: 1vw; }
+
+.Action2 {
+  font-weight: bold;
+  color: #1078AD;
+  margin-left: 1000%; }
+
+.Action1 {
+  color: #000000;
+  margin-left: 900%; }
+
+.logo {
+  margin-left: 40%; }
+
+/*NavBar End */
+/*Yellow-Part Start */
+.yellowpart {
+  text-align: center;
+  background-color: #F4CF1B;
+  font-size: 2.5vh;
+  padding-bottom: 2%;
+  padding-top: 1%; }
+
+h2 {
+  color: #1078AD; }
+
+/*Yellow-Part End */
+/*HeroHeader Start */
+#HeroHeader {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2; }
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3; }
