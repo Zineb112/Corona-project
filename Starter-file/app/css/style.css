@@ -22,7 +22,7 @@ button {
   border: 2px solid #1078AD;
   border-radius: 12px;
   font-size: 29px;
-  margin: 4px 2px;
+  font-weight: bold;
   width: 650px; }
 
 /*NavBar Start */
@@ -66,19 +66,40 @@ a {
   padding-top: 1%; }
 
 h2 {
-  color: #1078AD; }
+  color: #1078AD;
+  font-size: 1.5vw;
+  font-weight: bold; }
 
 /*Yellow-Part End */
 /*HeroHeader Start */
-#HeroHeader {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px; }
+.section1 {
+  width: 50%;
+  float: left;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-top: 3%; }
+  .section1__pargph {
+    color: #7F7F7F;
+    margin-bottom: 5%;
+    font-weight: bold; }
+  .section1__icon {
+    margin-top: 5%;
+    margin-bottom: 3%; }
 
-.div1 {
-  grid-area: 1 / 1 / 2 / 2; }
-
-.div2 {
-  grid-area: 1 / 2 / 2 / 3; }
+.section2 {
+  width: 50%;
+  float: left;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .section2__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70%; }
