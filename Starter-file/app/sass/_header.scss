@@ -4,7 +4,8 @@
 .navbar {
     background-image: url(../image/bar-17.png);
     width: 100%;
-    height: 2%;
+    height: 92px;
+    
    
 }
 ul{
@@ -29,17 +30,18 @@ ul{
     font-weight: bold;   
     color: $color-blue;
     margin-left: 1000%;
-   
+    
   }
   .Action1{
       color: $color-black;
       margin-left: 900%;
-      margin-bottom: 0%;
-     
+
   }
 
   .logo{
       margin-left: 40%;
+      padding-bottom: 10%;
+      
   }
   /*NavBar End */
 
