@@ -79,6 +79,31 @@ h2 {
 
 /*Yellow-Part End */
 /*HeroHeader Start */
+#HeroHeader {
+  /* Create two equal columns that floats next to each other */
+  /* Clear floats after the columns */ }
+  #HeroHeader .column {
+    float: left;
+    width: 50%;
+    padding: 10px; }
+  #HeroHeader .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #HeroHeader .ImG {
+    width: 100%;
+    height: 165%; }
+  #HeroHeader .part1 {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 4%;
+    font-weight: bold; }
+  #HeroHeader .p2 {
+    color: #7F7F7F;
+    margin-top: 3%;
+    margin-bottom: 3%; }
+
 /*HeroHeader End */
-#symptoms {
-  background-color: red; }
+#symptoms .S2title {
+  text-align: center;
+  margin-top: 5%; }
