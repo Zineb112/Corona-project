@@ -79,38 +79,6 @@ h2 {
 
 /*Yellow-Part End */
 /*HeroHeader Start */
-.section1 {
-  width: 50%;
-  float: left;
-  height: 100vh;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 1.5vw;
-  margin-top: 3%; }
-  .section1__pargph {
-    color: #7F7F7F;
-    margin-bottom: 5%;
-    font-weight: bold; }
-  .section1__icon {
-    margin-top: 2%;
-    margin-bottom: 1%; }
-
-.section2 {
-  width: 50%;
-  float: left;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-  .section2__image {
-    margin-left: -10%;
-    margin-right: auto;
-    width: 100%;
-    height: 80%; }
-
 /*HeroHeader End */
-h1 {
-  margin-right: 40%;
-  color: #1078AD; }
+#symptoms {
+  background-color: red; }
