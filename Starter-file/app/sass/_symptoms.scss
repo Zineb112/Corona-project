@@ -2,6 +2,10 @@
 
 .T2{
 text-align: center;
+font-weight: bolder;
+color: $color-blue;
+font-size: 2vw;
+margin-top: 2%;
 }
 
 
@@ -11,10 +15,18 @@ text-align: center;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-top: 3%;
+    margin-top: 2%;
+    
     
     }
 
 .para{
 text-align: center;
+}
+.IMG{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+ 
 }
