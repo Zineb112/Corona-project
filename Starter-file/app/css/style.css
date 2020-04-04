@@ -11,7 +11,7 @@
 body {
   font-family: 'cairo', sans-serif; }
 
-button {
+.buttn {
   background-image: url(../image/bar-18.png);
   background-size: 50% 50%;
   border: #1078AD;
@@ -25,7 +25,7 @@ button {
   font-weight: bold;
   width: 650px; }
 
-button:hover {
+.buttn:hover {
   background-color: #1078AD;
   color: #e9ecef; }
 
@@ -127,3 +127,57 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%; }
+
+.firstpart {
+  background-color: #1078AD;
+  color: #e9ecef;
+  font-size: 1.2vw; }
+
+span {
+  color: #F4CF1B;
+  padding-left: 9%; }
+
+.Roff {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  padding-top: 1%; }
+
+h3 {
+  margin-left: 17%;
+  font-weight: bold; }
+
+.list {
+  padding-top: 2%;
+  padding-bottom: 3%; }
+
+.secodtpart {
+  text-align: center;
+  background-color: #96C5DC;
+  padding-top: 1%; }
+
+.icon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 2%; }
+
+.divise {
+  display: flex; }
+
+.ybut {
+  display: block;
+  background-color: #F4CF1B;
+  padding: 15px 32px;
+  text-align: center;
+  color: #1078AD;
+  text-decoration: none;
+  border: 2px solid #1078AD;
+  border-radius: 12px;
+  font-size: 29px;
+  font-weight: bold;
+  width: 300px;
+  margin-left: 127%;
+  margin-top: 10%;
+  margin-bottom: 3%; }
