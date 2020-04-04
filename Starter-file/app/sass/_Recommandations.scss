@@ -38,7 +38,7 @@ h3{
     text-align: center;
     background-color: $color-ciel;
     padding-top: 1%;
-    
+    padding-bottom: 5%;
 }
 
 .icon2{
@@ -55,16 +55,19 @@ h3{
 .ybut{
     display: block;
     background-color: $color-yellow;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 7px 18px;
     color: $color-blue;
-    text-decoration: none;
     border: 2px solid $color-blue;
     border-radius: 12px;
     font-size: 29px;
     font-weight: bold;
     width: 300px;
     margin-left: 127%;
-    margin-top: 10%;
     margin-bottom: 3%;
+}
+
+.Appe{
+  
+    margin-left: 155%;
+    color: $color-yellow;
 }
