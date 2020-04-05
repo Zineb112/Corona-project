@@ -1,4 +1,4 @@
-@import url("font-family: 'Cairo', sans-serif;");
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -9,7 +9,7 @@
   list-style: none; }
 
 body {
-  font-family: 'Cairo', sans-serif; }
+  font-family: 'cairo', sans-serif; }
 
 .buttn {
   background-image: url(../image/bar-18.png);
@@ -33,9 +33,6 @@ body {
 /*NavBar End */
 .navbar {
   background-image: url(../image/bar-17.png); }
-
-.nav-link {
-  margin-left: 3100%; }
 
 /*Yellow-Part Start */
 .yellowpart {
@@ -168,31 +165,12 @@ h3 {
   margin-bottom: 3%; }
 
 .container2 {
-  display: flex;
-  margin-bottom: 5%; }
+  display: flex; }
 
 .left2 {
   text-align: center;
-  margin-left: 15%;
+  margin-left: 20%;
   font-size: 1vw; }
 
 .numb {
   color: #369D53; }
-
-.rghit2 {
-  margin-left: 35%;
-  text-align: center;
-  margin-top: 4%; }
-
-.rghitlist {
-  display: block; }
-
-.Contactsu {
-  margin-bottom: 5%;
-  font-weight: bold;
-  font-size: 1.6vw; }
-
-.lastpart {
-  background-color: #1078AD;
-  width: 100%;
-  height: 50px; }
