@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("font-family: 'Cairo', sans-serif;");
 * {
   margin: 0%;
   padding: 0%;
@@ -9,7 +9,7 @@
   list-style: none; }
 
 body {
-  font-family: 'cairo', sans-serif; }
+  font-family: 'Cairo', sans-serif; }
 
 .buttn {
   background-image: url(../image/bar-18.png);
@@ -30,40 +30,13 @@ body {
   color: #e9ecef; }
 
 /*NavBar Start */
-.navbar {
-  background-image: url(../image/bar-17.png);
-  width: 100%;
-  height: 92px; }
-
-ul {
-  margin: 0;
-  padding: 0;
-  display: flex; }
-
-li {
-  list-style-type: none;
-  margin: 2vw 2vw;
-  /*font-size will be 3% of the height of the viewport */
-  font-size: 3vh; }
-
-a {
-  text-decoration: none;
-  padding: 1vw; }
-
-.Action2 {
-  font-weight: bold;
-  color: #1078AD;
-  margin-left: 1000%; }
-
-.Action1 {
-  color: #000000;
-  margin-left: 900%; }
-
-.logo {
-  margin-left: 40%;
-  padding-bottom: 10%; }
-
 /*NavBar End */
+.navbar {
+  background-image: url(../image/bar-17.png); }
+
+.nav-link {
+  margin-left: 3100%; }
+
 /*Yellow-Part Start */
 .yellowpart {
   text-align: center;
@@ -195,12 +168,31 @@ h3 {
   margin-bottom: 3%; }
 
 .container2 {
-  display: flex; }
+  display: flex;
+  margin-bottom: 5%; }
 
 .left2 {
   text-align: center;
-  margin-left: 20%;
+  margin-left: 15%;
   font-size: 1vw; }
 
 .numb {
   color: #369D53; }
+
+.rghit2 {
+  margin-left: 35%;
+  text-align: center;
+  margin-top: 4%; }
+
+.rghitlist {
+  display: block; }
+
+.Contactsu {
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 1.6vw; }
+
+.lastpart {
+  background-color: #1078AD;
+  width: 100%;
+  height: 50px; }
