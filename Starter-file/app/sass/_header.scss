@@ -46,20 +46,20 @@
 
   .ImG{
       width: 100%;
-      height: 165%;
-      
+      height: auto;
+    
   }
   .part1{
       text-align: center;
       font-size: 1.5vw;
-      margin-top: 4%;
+      padding-top: 4%;
       font-weight: bold;
       
   }
   .p2{
       color: $color-font;
-      margin-top: 3%;
-      margin-bottom: 3%;
+      padding-top: 3%;
+      padding-bottom: 3%;
   }
 
 /*HeroHeader End */

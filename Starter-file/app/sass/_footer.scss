@@ -1,11 +1,13 @@
 @import'variables';
 
 .logo2{
+
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .container2{
@@ -14,10 +16,52 @@
 
 .left2{
     text-align: center;
-    margin-left: 20%;
+    padding-left: 20%;
     font-size: 1vw;
+    padding-bottom: 2%;
 }
 
 .numb{
     color: $color-green;
+}
+
+
+.rghit2{
+    padding-left: 30%;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+
+.Acceuil{
+    font-weight: bold;
+    color: $color-blue;
+}
+
+.Conseils{
+    color: $color-black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bluebar{
+    background-color: $color-blue;
+    width: 100%;
+    height: 50px;
 }
