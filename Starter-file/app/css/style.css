@@ -186,3 +186,21 @@ h3 {
 .Appe {
   margin-left: 155%;
   color: #F4CF1B; }
+
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 3%; }
+
+.container2 {
+  display: flex; }
+
+.left2 {
+  text-align: center;
+  margin-left: 20%;
+  font-size: 1vw; }
+
+.numb {
+  color: #369D53; }
