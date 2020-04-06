@@ -51,7 +51,8 @@ body {
     color: #1078AD; }
 
 .logo {
-  width: 2%; }
+  width: 2%;
+  margin-left: 2%; }
 
 /*NavBar End */
 /*Yellow-Part Start */
@@ -202,9 +203,12 @@ h3 {
   text-align: center;
   font-size: 1.4vw; }
 
-.Acceuil {
+.Acceuil2 {
   font-weight: bold;
   color: #1078AD; }
+
+.Conseils2 {
+  color: #000000; }
 
 .bluebar {
   background-color: #1078AD;
