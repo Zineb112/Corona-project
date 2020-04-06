@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 * {
-  margin: 0%;
-  padding: 0%;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -30,6 +28,31 @@ body {
   color: #e9ecef; }
 
 /*NavBar Start */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../image/bar-17.png);
+  height: 70px;
+  padding: 1em; }
+  .top-nav .nav {
+    display: flex;
+    flex-direction: row; }
+  .top-nav .nav > li {
+    font-size: 1.3vw; }
+  .top-nav .Conseils {
+    margin: 0 1rem;
+    color: #000000; }
+  .top-nav .Accueil {
+    margin: 0 1rem;
+    padding-right: 8rem;
+    font-weight: bold;
+    color: #1078AD; }
+
+.logo {
+  width: 2%; }
+
 /*NavBar End */
 /*Yellow-Part Start */
 .yellowpart {
