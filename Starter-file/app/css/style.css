@@ -21,7 +21,7 @@ body {
   border-radius: 12px;
   font-size: 29px;
   font-weight: bold;
-  width: 650px; }
+  width: 590px; }
 
 .buttn:hover {
   background-color: #1078AD;
@@ -174,6 +174,25 @@ span {
   padding-bottom: 5%;
   font-size: 1.5vw;
   color: #F4CF1B; }
+
+.bluepart {
+  background-color: #96C5DC;
+  text-align: center; }
+
+.blueparttit {
+  color: #1078AD;
+  padding-top: 2%;
+  font-size: 1.7vw; }
+
+.icon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+.buttn {
+  margin-bottom: 3%; }
 
 .logo2 {
   display: block;
