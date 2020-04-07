@@ -215,6 +215,9 @@ h3 {
   width: 100%;
   height: 50px; }
 
+#proteger {
+  margin-bottom: 7%; }
+
 .protegertitle {
   text-align: center;
   font-weight: bold;
@@ -266,3 +269,10 @@ h3 {
 
 .TiTr {
   text-align: center; }
+
+#Informations {
+  background-color: #9dcbe2;
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: bold;
+  color: #1078AD; }
