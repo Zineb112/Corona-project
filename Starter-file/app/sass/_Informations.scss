@@ -6,4 +6,30 @@
     font-size: 1.7vw;
     font-weight: bold;
     color: $color-blue;
+    margin-bottom: 5%;
+}
+
+.linkbtn{
+    background-color:$color-blue; 
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1vw;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.Obtenez{
+   color: $color-darkblue;
+}
+
+.Informa{
+    padding-top: 2%;
 }

@@ -271,8 +271,31 @@ h3 {
   text-align: center; }
 
 #Informations {
-  background-color: #9dcbe2;
+  background-color: #D0E5F0;
   text-align: center;
   font-size: 1.7vw;
   font-weight: bold;
-  color: #1078AD; }
+  color: #1078AD;
+  margin-bottom: 5%; }
+
+.linkbtn {
+  background-color: #1078AD;
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1vw;
+  border-radius: 5px;
+  width: 20%; }
+
+.Obtenez {
+  color: #00008B; }
+
+.Informa {
+  padding-top: 2%; }
