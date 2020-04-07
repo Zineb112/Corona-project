@@ -63,7 +63,7 @@ body {
   padding-bottom: 2%;
   padding-top: 0.2%; }
 
-h2 {
+.yellowparttitle {
   color: #1078AD;
   font-size: 1.5vw;
   font-weight: bold; }
@@ -96,6 +96,11 @@ h2 {
   color: #7F7F7F;
   padding-top: 3%;
   padding-bottom: 3%; }
+
+.lefttitle {
+  color: #1078AD;
+  font-size: 1.9vw;
+  font-weight: bold; }
 
 /*HeroHeader End */
 .T2 {
@@ -315,3 +320,13 @@ span {
 
 .Informa {
   padding-top: 2%; }
+
+/*Buttn*/
+@media screen and (max-width: 768px) {
+  .buttn {
+    width: 150px;
+    font-size: 10px;
+    padding: 6px 6px; } }
+
+/*Yellow-Part*/
+/*Hero-eader*/

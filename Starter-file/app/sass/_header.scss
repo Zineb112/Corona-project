@@ -52,7 +52,7 @@
       padding-bottom: 2%;
       padding-top: 0.2%;
   }
- h2{
+  .yellowparttitle{
      color: $color-blue;
      font-size: 1.5vw;
      font-weight: bold;
@@ -99,6 +99,12 @@
       color: $color-font;
       padding-top: 3%;
       padding-bottom: 3%;
+  }
+
+  .lefttitle{
+    color: $color-blue;
+     font-size: 1.9vw;
+     font-weight: bold;
   }
 
 /*HeroHeader End */
