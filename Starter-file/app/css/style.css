@@ -122,8 +122,58 @@ h2 {
   margin-right: auto;
   margin-top: 7%; }
 
-#recommandations {
+.secti3 {
   background-color: #1078AD; }
+
+.Rec {
+  text-align: center;
+  color: #e9ecef;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-size: 1.7vw; }
+
+.cons {
+  color: #e9ecef;
+  padding-left: 21%;
+  font-size: 1.3vw; }
+
+.content2 {
+  display: flex; }
+
+.part12 {
+  margin-left: 13%; }
+
+.but {
+  display: block;
+  background-color: #F4CF1B;
+  border: none;
+  color: #1078AD;
+  padding: 0.25rem;
+  border-radius: 5px;
+  font-size: 1.7vw;
+  font-weight: bold;
+  width: 12rem;
+  margin-bottom: 7%;
+  width: 140%; }
+
+.text {
+  padding-left: 19%;
+  color: #D0E5F0;
+  font-size: 1.3vw; }
+
+span {
+  color: #F4CF1B; }
+
+.part11 {
+  padding-top: 1%;
+  padding-bottom: 3%; }
+
+.titr {
+  padding-left: 48%;
+  padding-bottom: 5%;
+  font-size: 1.5vw;
+  color: #F4CF1B; }
 
 .logo2 {
   display: block;

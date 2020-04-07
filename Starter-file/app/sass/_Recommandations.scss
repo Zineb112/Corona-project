@@ -1,3 +1,68 @@
 @import'variables';
 
+.secti3{
+    background-color: $color-blue;
+}
 
+.Rec{
+    text-align: center;
+    color: $color-gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.cons{
+    color: $color-gray;
+    padding-left: 21%;
+    font-size: 1.3vw;
+}
+
+
+
+
+.content2{
+    display: flex;
+}
+
+.part12{
+    margin-left: 13%;
+}
+.but{
+    display: block;
+    background-color: $color-yellow; 
+    border: none;
+    color: $color-blue;
+    padding: 0.25rem ;
+    border-radius: 5px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    width: 12rem;
+    margin-bottom: 7%;
+    width: 140%;
+    
+}
+
+.text{
+    padding-left: 19%;
+    color: $color-ciel2;
+   font-size: 1.3vw;
+
+}
+
+span{
+    color: $color-yellow;
+}
+
+.part11{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.titr{
+    padding-left: 48%;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    color: $color-yellow;
+}
