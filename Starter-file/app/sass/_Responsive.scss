@@ -19,3 +19,44 @@
 /*Hero-eader*/
   
   
+/*proteger section*/
+
+@media screen and (max-width:768px) {
+  .perpart{
+    display: flex;
+    flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: stretch;
+  }
+
+  .Derpart{
+    display: flex;
+    flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+  align-content: stretch;
+  
+  }
+
+}
+/*symptoms*/
+@media screen and (max-width:768px) { 
+
+  .IMG{
+    height: 60px;
+  }
+  .para{
+    font-size: 80%;
+  }
+  .parent{
+    
+    margin-right: 6%;
+    padding-bottom: 5%;
+  }
+  .T2{
+    font-size: 100%;
+  }
+}
