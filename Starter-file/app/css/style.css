@@ -259,7 +259,7 @@ span {
   padding-left: 9%; }
 
 .pic1 {
-  padding-left: 14%;
+  padding-left: 19%;
   padding-top: 3%; }
 
 .pictitr {
@@ -278,12 +278,12 @@ span {
   padding-top: 6%; }
 
 .pic11 {
-  padding-left: 11%;
+  padding-left: 16%;
   padding-top: 6%; }
 
 .PIC {
   display: block;
-  margin-left: auto;
+  margin-left: 46%;
   margin-right: auto;
   padding-bottom: 2%;
   padding-top: 2%; }
@@ -358,3 +358,19 @@ span {
     padding-bottom: 5%; }
   .T2 {
     font-size: 100%; } }
+
+/*HeroHeader Start */
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    margin-left: 20%; }
+  .ImG {
+    height: 200px;
+    width: 160%; }
+  .left {
+    margin-left: 19; } }

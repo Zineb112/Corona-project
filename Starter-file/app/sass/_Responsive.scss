@@ -60,3 +60,28 @@
     font-size: 100%;
   }
 }
+
+/*HeroHeader Start */
+@media screen and (max-width:768px) {
+  .row {
+    display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+  align-content: space-between;
+  margin-left: 20%;
+  }
+
+  .ImG{
+    
+      height: 200px;
+      width: 160%;
+     
+  }
+  
+  .left{
+    margin-left: 19;
+
+  }
+}
