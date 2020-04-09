@@ -302,17 +302,14 @@ span {
   background-color: #1078AD;
   border: none;
   color: white;
-  padding: 20px 60px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 3%;
-  margin-top: 2%;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 1vw;
-  border-radius: 5px;
-  width: 20%; }
+  margin-bottom: 2%; }
 
 .Obtenez {
   color: #00008B; }
@@ -409,3 +406,5 @@ span {
 @media screen and (max-width: 768px) {
   .logo2 {
     width: 10%; } }
+
+/* Informations*/
