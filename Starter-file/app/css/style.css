@@ -352,18 +352,26 @@ span {
 @media screen and (max-width: 768px) {
   .perpart {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: baseline;
-    align-content: stretch; }
+    align-items: stretch;
+    align-content: stretch;
+    margin-right: 19%; }
+  .pictitr {
+    font-size: xx-small; }
   .Derpart {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: baseline;
-    align-content: stretch; } }
+    align-items: stretch;
+    align-content: stretch;
+    margin-right: 17%; }
+  .protegertitle {
+    font-size: large; }
+  .TiTr {
+    font-size: xx-small; } }
 
 /*symptoms*/
 @media screen and (max-width: 768px) {
