@@ -330,6 +330,24 @@ span {
     font-size: small; } }
 
 /*Hero-eader*/
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch; }
+  .left {
+    margin-left: 25%; }
+  .lefttitle {
+    font-size: small;
+    font-weight: bold; }
+  .rghit22 {
+    width: 100%; }
+  .p2 {
+    font-size: small; } }
+
 /*proteger section*/
 @media screen and (max-width: 768px) {
   .perpart {
@@ -408,3 +426,10 @@ span {
     width: 10%; } }
 
 /* Informations*/
+/* navbar*/
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; } }
