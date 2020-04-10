@@ -167,7 +167,18 @@
 }
 
 /* Informations*/
-
+@media screen and (max-width:768px) {
+  .linkbtn{
+font-size: small;
+height: 5%;
+  }
+  .Informa{
+    font-size: x-large;
+  }
+  .Obtenez{
+    font-size: small;
+  }
+}
 /* navbar*/
 @media screen and (max-width:768px) {
   .nav{
@@ -175,7 +186,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-  
   }
   }
   
