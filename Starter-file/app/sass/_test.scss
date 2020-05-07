@@ -85,18 +85,32 @@ body{
         margin-top: 5%;
         background: $color-gray;
         border-radius: 8px;
-        text-align: center;
-    }
+		text-align: center;
+		font-size: large;
+		
+	}
+	.Préambule{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 
     .mb-4, .my-4 {
        
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
         width: 90%;
         margin-left: 5%;
        color: $color-gray;
 
-    }
+	}
+	.pre2{
+		padding-bottom: 5%;
+	}
+	.pre{
+		color: $color-blue;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
 	&-footer{
 		
 		& button{

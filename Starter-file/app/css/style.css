@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 * {
@@ -506,13 +508,23 @@ body {
     margin-top: 5%;
     background: #e9ecef;
     border-radius: 8px;
-    text-align: center; }
+    text-align: center;
+    font-size: large; }
+  .card .Préambule {
+    padding-left: 5%;
+    padding-right: 5%; }
   .card .mb-4, .card .my-4 {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 90%;
     margin-left: 5%;
     color: #e9ecef; }
+  .card .pre2 {
+    padding-bottom: 5%; }
+  .card .pre {
+    color: #1078AD;
+    padding-top: 3%;
+    padding-bottom: 3%; }
   .card-footer button {
     border-radius: 5px;
     padding: 15px 25px;
@@ -537,3 +549,69 @@ body {
     margin-left: 0; }
   .card {
     margin-top: 12%; } }
+
+h4 {
+  color: #6d6d6d; }
+
+#barra {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd; }
+
+#bar {
+  height: 10px;
+  background-color: #4CAF50; }
+
+#start {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+#next {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+#back {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+#startagain {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+#div1 {
+  height: auto; }
+
+#div2 {
+  height: auto; }

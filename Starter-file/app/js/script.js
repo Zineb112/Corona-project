@@ -46,3 +46,9 @@ function fixStepIndicator(n) {
   
   x[n].className += " active";
 }
+
+
+
+
+
+
