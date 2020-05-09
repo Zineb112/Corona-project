@@ -203,7 +203,8 @@ jQuery('.mm-prev-btn').hide();
 			item = jQuery(this);
 			item.addClass('bingo');
 			item.closest('.mm-survey-page').addClass('pass');
-			jQuery('.mm-survey-container').addClass('good');
+            jQuery('.mm-survey-container').addClass('good');
+            
 		});
 	}
 
@@ -236,7 +237,8 @@ jQuery('.mm-prev-btn').hide();
 
 	function submitData() {
 		jQuery('.mm-finish-btn').on('click', function() {
-			collectData();
+            collectData();
+            goToNext();
 			jQuery('.mm-survey-bottom').slideUp();
 			jQuery('.mm-survey-results').slideDown();
 		});
@@ -306,4 +308,5 @@ jQuery('.mm-prev-btn').hide();
 			jQuery('.mm-survey-bottom').slideDown();
 			jQuery('.mm-survey-results').slideUp();
 		});
-	}
+    }
+    const resMsg = document.querySelectorAll('.mm-survey-results p');

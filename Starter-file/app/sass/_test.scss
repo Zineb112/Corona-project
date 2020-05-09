@@ -55,12 +55,11 @@ body{
 	&-body{
 		padding: 16px;
 		min-height: 250px;
-		display: flex;
+	
 		justify-items: center;
 		align-items: center;
 		& .tabs
 		{
-				width: 100%;
 				height: 100%;
 				justify-content: center;
 				display: flex;
