@@ -76,17 +76,17 @@
 
     .mm-survey-controller {
         button {
-            background-color: $color-ciel;
+            background-color: $color-blue;
             padding: 0.25em;
             margin-top: 3%;
             border: 2px solid $color-blue;
-            color: $color-ciel;
+            color: $color-white;
             font-size: 20px;
             width: 100%;
             border-radius: 5px;
 
             &:hover {
-                background-color: $color-ciel;
+                background-color:  $color-blue;
                 color: $color-white;
 
             }
@@ -111,7 +111,7 @@
     .mm-survey-progress-bar {
         height: 10px;
         width: 0%;
-        background: $color-black;
+        background: $color-blue;
     }
 
     .mm-survey-q {
@@ -205,8 +205,9 @@
         color: $color-blue;
         font-weight: bold;
         font-size: 1em;
-        width: 7em;
+        width: 9em;
         border-radius: 6px;
+        text-align: center;
     }
 
 
@@ -222,15 +223,15 @@
     }
 
     .lab {
-        border: 0.5px solid $color-black;
+        border: 0.5px solid $color-white;
         margin-left: -0.25em;
         font-size: 1em;
         padding: 0.22em;
         border-left: none;
         width: 4em;
         text-align: center;
-        color: $color-font;
-        background-color: $color-blue;
+        color: $color-black;
+        background-color: $color-white;
 
 
 
@@ -240,6 +241,7 @@
         width: 35em;
         padding: 0.22em;
         border: 0.5px solid $color-black;
+        margin-left: 16%;
 
     }
 
@@ -249,7 +251,7 @@
     }
 
     .progre {
-        border: 1px solid $color-black;
+        border: 1px solid $color-blue;
         padding: 1em;
         border-bottom: none;
         border-radius: 8px 8px 0px 0px;

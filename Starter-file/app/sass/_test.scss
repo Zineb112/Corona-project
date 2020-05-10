@@ -28,6 +28,7 @@ body{
 			column-count: 3;
 			justify-content: center;
 			align-items: center;
+			margin-top: 5%;
 			
 			& .step{
 			 width: 100%; 
@@ -66,6 +67,7 @@ body{
 				justify-content: center;
 				display: flex;
 				align-items: center;
+				margin-top: 4%;
 			& .tab{
 					display: none;
 			}
