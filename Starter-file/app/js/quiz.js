@@ -239,7 +239,7 @@ function goBack() {
 const resMsg = document.querySelectorAll('.mm-survey-results p');
 
 
-
+/*****************************************************/
 
 function Results() {
 
